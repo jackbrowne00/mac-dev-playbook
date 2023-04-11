@@ -1,0 +1,27 @@
+---
+downloads: ~/.ansible-downloads/
+
+homebrew_installed_packages:
+  # - ansible # Installed via Pip.
+  - awscli
+  - git
+  - node
+  - nvm
+  - terraform
+  - yarn
+
+homebrew_taps:
+  - homebrew/core
+  - homebrew/cask
+
+homebrew_cask_appdir: /Applications
+homebrew_cask_apps:
+  - docker
+  - firefox
+  - google-chrome
+  - iterm2
+  - notion
+  - rectangle
+  - tuple
+  - visual-studio-code
+  - zoom

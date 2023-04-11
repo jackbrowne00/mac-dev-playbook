@@ -1,0 +1,21 @@
+---
+- name: link dotfiles
+  file:
+    src: "{{ files_path }}/{{ item }}"
+    dest: "${HOME}/{{ item }}"
+    state: link
+    force: yes
+    follow: false
+  loop:
+    - .zshrc
+
+- name: Create .zsh directory if it does not exist
+  file:
+    path: ~/.zsh/completion
+    state: directory
+    mode: "0755"
+    recurse: yes
+
+- name: link docker completions
+  script: docker-completion.sh
+
