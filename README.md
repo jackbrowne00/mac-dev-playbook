@@ -2,7 +2,7 @@
 
 Ansible playbook to setup my Mac with some programs and configure zsh etc.
 
-This is based off of two similar playbooks https://github.com/geerlingguy/mac-dev-playbook, https://github.com/cpettifer/mac-desktop and https://github.com/denialanderror/automac.
+This is inspired by the following three playbooks: https://github.com/geerlingguy/mac-dev-playbook, https://github.com/cpettifer/mac-desktop and https://github.com/denialanderror/automac.
 
 ## Installation
 
