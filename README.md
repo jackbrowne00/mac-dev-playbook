@@ -1,4 +1,4 @@
-# Mac Setup
+# Mac Setup Playbook
 
 Ansible playbook to setup my Mac with some programs and configure zsh etc.
 
