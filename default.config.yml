@@ -21,6 +21,7 @@ homebrew_cask_apps:
   - google-chrome
   - iterm2
   - notion
+  - postman
   - rectangle
   - tuple
   - visual-studio-code
