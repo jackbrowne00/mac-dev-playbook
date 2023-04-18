@@ -20,6 +20,7 @@ homebrew_cask_apps:
   - firefox
   - google-chrome
   - iterm2
+  - mongodb-compass
   - notion
   - postman
   - rectangle
