@@ -24,6 +24,7 @@ homebrew_cask_apps:
   - notion
   - postman
   - rectangle
+  - slack
   - tuple
   - visual-studio-code
   - zoom
