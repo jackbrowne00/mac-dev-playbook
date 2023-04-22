@@ -9,3 +9,6 @@ complete -o nospace -C /usr/local/bin/terraform terraform
 # nvm
 export NVM_DIR=~/.nvm
 source $(brew --prefix nvm)/nvm.sh
+
+# terraform tab completions
+complete -o nospace -C /opt/homebrew/bin/terraform terraform
